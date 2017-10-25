@@ -1,0 +1,19 @@
+
+(function(compId){"use strict";var _=null,y=true,n=false,x12='203px',x4='rgba(0,0,0,0)',x28='100%',g='image',x31='97px',x9='0%',x16='1',x8='0',x33='-90',m='rect',e7='${Beground_light_Cop2}',d='display',x3='horizontal',x29='also',i='none',x17='20%',zx='scaleX',e38='${also}',x20='286px',x13='646px',e37='${nyilCopy}',lf='left',x36='29px',x2='5.0.0.375',x22='74px',x24='226px',x34='nyilCopy',x27='50%',x21='62px',x35='252px',x18='nyil',x14='auto',e26='${nyil}',zy='scaleY',x30='528px',e25='${Pasted}',x6='rgba(255,255,255,1)',tp='top',x10='Pasted',x1='5.0.0',x19='128px',x11='0px',w='width';var g23='nyil.svg',g5='Beground_light_Cop2.png',g32='also.svg',g15='Pasted.svg';var im='images/',aud='media/',vid='media/',js='js/',fonts={},opts={'gAudioPreloadPreference':'auto','gVideoPreloadPreference':'auto'},resources=[],scripts=[],symbols={"stage":{v:x1,mv:x1,b:x2,stf:w,cg:x3,rI:n,cn:{dom:[{id:'Beground_light_Cop2',v:i,t:g,r:['-1px','0px','962px','646px','auto','auto'],f:[x4,im+g5,'0px','0px']},{id:'also_sav',symbolName:'also_sav',t:m,r:['216','549','528','97','auto','auto']},{id:'jobb_oldal_sav',symbolName:'bal_oldal_sav',t:m,r:['734px','0','226','646','auto','auto'],tf:[[],['180']]},{id:'felso_sav',symbolName:'also_sav',t:m,r:['216px','0px','undefined','undefined','auto','auto'],tf:[[],['180']]},{id:'bal_oldal_sav',symbolName:'bal_oldal_sav',t:m,r:['-1px','0','226','646','auto','auto']}],style:{'${Stage}':{isStage:true,r:['null','null','960px','646px','auto','auto'],overflow:'hidden',f:[x6]}}},tt:{d:4000,a:y,data:[["eid65",d,0,0,"easeOutQuad",e7,i,i],["eid59","tr",0,function(e,d){this.eSA(e,d);},['stop','${jobb_oldal_sav}',[]]],["eid60","tr",0,function(e,d){this.eSA(e,d);},['stop','${also_sav}',[]]],["eid64","tr",0,function(e,d){this.eSA(e,d);},['play','${bal_oldal_sav}',[]]],["eid58","tr",441.14627628571,function(e,d){this.eSA(e,d);},['stop','${felso_sav}',[]]],["eid61","tr",1000,function(e,d){this.eSA(e,d);},['play','${felso_sav}',[]]],["eid62","tr",2000,function(e,d){this.eSA(e,d);},['play','${jobb_oldal_sav}',[]]],["eid63","tr",3000,function(e,d){this.eSA(e,d);},['play','${also_sav}',[]]]]}},"bal_oldal_sav":{v:x1,mv:x1,b:x2,stf:i,cg:i,rI:n,cn:{dom:[{tf:[[],[],[],[x8],[x9]],id:x10,t:g,r:[x11,x11,x12,x13,x14,x14],f:[x4,im+g15,x11,x11]},{tf:[[],[],[],[x16,x8],[x17]],id:x18,t:g,r:[x19,x20,x21,x22,x14,x14],f:[x4,im+g23,x11,x11]}],style:{'${symbolSelector}':{r:[_,_,x24,x13]}}},tt:{d:1000,a:y,data:[["eid4",zx,0,895,"easeOutCubic",e25,'0','1'],["eid11",zy,435,565,"easeOutQuart",e26,'0','1'],["eid13",lf,680,320,"easeOutCirc",e26,'128px','164px'],["eid9",zx,435,565,"easeOutQuart",e26,'0','1']]}},"also_sav":{v:x1,mv:x1,b:x2,stf:i,cg:i,rI:n,cn:{dom:[{tf:[[],[],[],[x16,x8],[x27,x28]],id:x29,t:g,r:[x11,x11,x30,x31,x14,x14],f:[x4,im+g32,x11,x11]},{tf:[[],[x33],[],[x16,x8],[x17]],id:x34,t:g,r:[x35,x36,x21,x22,x14,x14],f:[x4,im+g23,x11,x11]}],style:{'${symbolSelector}':{r:[_,_,x30,x31]}}},tt:{d:1000,a:y,data:[["eid44",zy,435,565,"easeOutQuart",e37,'0','1'],["eid47",lf,1000,0,"easeOutCubic",e37,'252px','252px'],["eid42",zx,435,565,"easeOutQuart",e37,'0','1'],["eid32",zy,0,1000,"easeOutQuad",e38,'0','1'],["eid48",tp,699,301,"easeOutCubic",e37,'29px','-19px']]}}};AdobeEdge.registerCompositionDefn(compId,symbols,fonts,scripts,resources,opts);})("EDGE-85783668");
+(function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;Edge.registerEventBinding(compId,function($){
+//Edge symbol: 'stage'
+(function(symbolName){})("stage");
+//Edge symbol end:'stage'
+
+//=========================================================
+
+//Edge symbol: 'bal_oldal_sav'
+(function(symbolName){})("bal_oldal_sav");
+//Edge symbol end:'bal_oldal_sav'
+
+//=========================================================
+
+//Edge symbol: 'also_sav'
+(function(symbolName){})("also_sav");
+//Edge symbol end:'also_sav'
+})})(AdobeEdge.$,AdobeEdge,"EDGE-85783668");
