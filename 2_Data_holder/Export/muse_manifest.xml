@@ -1,0 +1,57 @@
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="holder.html" resolutions="1x" timestamp="1510001756567">
+  <folder name="css">
+    <file name="site_global.css" crc="443350757"/>
+    <file name="index.css" crc="3901287622" ref="index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="fontawesome-webfont.woff" crc="462672289"/>
+    <file name="fontawesome-webfont.eot" crc="415170694"/>
+    <file name="fontawesome-webfont.svg" crc="3771442179"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="46400467" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="436936948" ref="index"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="index"/>
+    <file name="require.js" crc="85721165" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="data_holders_big-crop-u102.png" crc="13319648" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="artefacts.svg" crc="3813150820" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="artefacts_poster_.png" crc="34516137" ref="index"/>
+    <file name="attitude.svg" crc="26887430" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="attitude_poster_.png" crc="166877444" ref="index"/>
+    <file name="strategies.svg" crc="3872537615" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="strategies_poster_.png" crc="490013474" ref="index"/>
+    <file name="enviroment.svg" crc="364428219" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="enviroment_poster_.png" crc="45012123" ref="index"/>
+    <file name="enablers_emberke.svg" crc="193444772" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="enablers_emberke_poster_.png" crc="187319854" ref="index"/>
+    <file name="technological.svg" crc="425352662" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="technological_poster_.png" crc="4112793695" ref="index"/>
+    <file name="socio_economic.svg" crc="3899303178" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socio_economic_poster_.png" crc="409956715" ref="index"/>
+    <file name="legal.svg" crc="3866334637" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="legal_poster_.png" crc="4091459638" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4175361125" seo="true" mt="1510001682767" redirect="true"/>
+</manifest>
