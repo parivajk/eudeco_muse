@@ -1,12 +1,16 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="holder.html" resolutions="1x" timestamp="1510001756567">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="holder.html" resolutions="1x" timestamp="1510239032904">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="index.css" crc="3901287622" ref="index"/>
+    <file name="site_global.css" crc="3866724083"/>
+    <file name="index.css" crc="251828794" ref="index"/>
+    <file name="iefonts_index.css" crc="3973223564" ref="index"/>
   </folder>
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
     <file name="fontawesome-webfont.eot" crc="415170694"/>
     <file name="fontawesome-webfont.svg" crc="3771442179"/>
+    <file name="ionicons.woff" crc="130427933"/>
+    <file name="ionicons.eot" crc="507607976"/>
+    <file name="ionicons.svg" crc="4174770705"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -15,12 +19,15 @@
     <file name="museconfig.js" crc="436936948" ref="index"/>
     <file name="jquery.watch.js" crc="4178585335" ref="index"/>
     <file name="require.js" crc="85721165" ref="index"/>
+    <file name="webpro.js" crc="4152390327" ref="index"/>
+    <file name="musewpdisclosure.js" crc="204784597" ref="index"/>
   </folder>
   <folder name="images">
     <file name="data_holders_big-crop-u102.png" crc="13319648" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="artefacts.svg" crc="3813150820" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="artefacts_poster_.png" crc="34516137" ref="index"/>
@@ -30,8 +37,9 @@
     <file name="attitude_poster_.png" crc="166877444" ref="index"/>
     <file name="strategies.svg" crc="3872537615" seo="true" ref="index">
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
     </file>
-    <file name="strategies_poster_.png" crc="490013474" ref="index"/>
+    <file name="strategies_poster_.png" crc="347693336" ref="index"/>
     <file name="enviroment.svg" crc="364428219" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -52,6 +60,10 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="legal_poster_.png" crc="4091459638" ref="index"/>
+    <file name="data_holders_big-crop-u1840.png" crc="13319648" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="4175361125" seo="true" mt="1510001682767" redirect="true"/>
+  <file name="index.html" crc="249674798" seo="true" mt="1510238922883" redirect="true"/>
 </manifest>

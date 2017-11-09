@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://holder.html/index.html</loc>
-    <lastmod>2017-11-06</lastmod>
+    <lastmod>2017-11-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -31,6 +31,9 @@
     </image:image>
     <image:image>
       <image:loc>http://holder.html/images/legal.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/data_holders_big-crop-u1840.png</image:loc>
     </image:image>
   </url>
 </urlset>
