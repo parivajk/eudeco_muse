@@ -18,10 +18,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=421218365"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4178272280"/>
-  <link rel="stylesheet" type="text/css" href="css/data-holders.css?crc=4213779706" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/data-holders.css?crc=3826205751" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_data-holders.css?crc=301742259"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_data-holders.css?crc=107212970"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -31,6 +31,43 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <script src="https://webfonts.creativecloud.com/open-sans:n7,n4:default;source-sans-pro:n4,n7:default;pt-sans:n4,n7:default.js" type="text/javascript"></script>
     <!--HTML Widget code-->
   
+<style>
+@charset "utf-8";
+body {
+	overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+  background: url(Add File) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	z-index:1000; /* makes sure it stays on top */
+  background:none;
+  background-color:#80A7B8; /* change if the mask should be a color other than white */
+  background-color:null;
+}
+
+#status {
+	width:1000px;
+	height:1000px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally on the screen */
+	top:50%; /* centers the loading animation vertically on the screen */
+	background-image:url(Add File); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin: calc(1000px/-2) 0 0 calc(1000px/-2); /* is width and height divided by two */
+}
+</style>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
 <style>
 .gs {
@@ -769,7 +806,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   transform-origin: center;
   opacity: 0;
 }
-.animated35 {
+.animated36 {
   -webkit-animation-duration: 1000ms;
   animation-duration: 1000ms;
 	-webkit-animation-delay:0ms;
@@ -779,7 +816,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-.animated35.infinite {
+.animated36.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -794,17 +831,17 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   transform-origin: center;
   opacity: 0;
 }
-.animated35 {
-  -webkit-animation-duration: 1000ms;
-  animation-duration: 1000ms;
-	-webkit-animation-delay:500ms;
-	animation-delay:500ms;
+.animated37 {
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+	-webkit-animation-delay:200ms;
+	animation-delay:200ms;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-.animated35.infinite {
+.animated37.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -820,16 +857,41 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   opacity: 0;
 }
 .animated30 {
-  -webkit-animation-duration: 1000ms;
-  animation-duration: 1000ms;
-	-webkit-animation-delay:500ms;
-	animation-delay:500ms;
+  -webkit-animation-duration: 800ms;
+  animation-duration: 800ms;
+	-webkit-animation-delay:200ms;
+	animation-delay:200ms;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
 .animated30.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+</style>
+
+<style>
+.strategies_box_tartalom {
+  visibility: visible !important;
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+  opacity: 0;
+}
+.animated38 {
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+	-webkit-animation-delay:0ms;
+	animation-delay:0ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.animated38.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
@@ -1081,8 +1143,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  </head>
  <body>
 
+  <!--HTML Widget code-->
+  
+<div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
+
+  
   <div class="rounded-corners clearfix borderbox" id="page"><!-- column -->
-   <div class="clearfix colelem" id="pu2997"><!-- group -->
+   <div class="clearfix colelem" id="pu8790"><!-- group -->
+    <div class="size_fixed grpelem" id="u8790"><!-- custom html -->
+     
+
+    </div>
     <div class="browser_width grpelem" id="u2997-bw">
      <div class="shadow" id="u2997"><!-- group -->
       <div class="clearfix" id="u2997_align_to_page">
@@ -1350,6 +1423,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       
 
      </div>
+     <div class="size_fixed colelem" id="u8643"><!-- custom html -->
+      
+
+     </div>
     </div>
     <div class="clearfix grpelem" id="u2485"><!-- column -->
      <div class="position_content" id="u2485_position_content">
@@ -1362,11 +1439,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         </div>
         <div class="clearfix grpelem" id="u1858"><!-- group -->
          <div class="clearfix grpelem" id="u1837"><!-- group -->
-          <div class="clearfix grpelem" id="u1838"><!-- group -->
-           <div class="shadow rounded-corners data_holder_box_tartalom gradient grpelem" id="u1839"><!-- simple frame --></div>
-          </div>
-          <div class="Data_holder clip_frame grpelem" id="u1840"><!-- image -->
-           <img class="block" id="u1840_img" src="images/data_holders_big-crop-u1840.png?crc=13319648" alt="" data-image-width="73" data-image-height="74"/>
+          <div class="shadow rounded-corners data_holder_box_tartalom gradient clearfix grpelem" id="u1839"><!-- group -->
+           <div class="Data_holder clip_frame grpelem" id="u1840"><!-- image -->
+            <img class="block" id="u1840_img" src="images/data_holders_big-crop-u1840.png?crc=13319648" alt="" data-image-width="73" data-image-height="74"/>
+           </div>
           </div>
          </div>
          <div class="size_fluid_width grpelem" id="u1853"><!-- custom html -->
@@ -1386,65 +1462,59 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="clearfix colelem" id="pu2542"><!-- group -->
        <div class="grpelem" id="u2542"><!-- simple frame --></div>
        <div class="grpelem" id="u3619"><!-- simple frame --></div>
-       <div class="clearfix grpelem" id="u2259"><!-- group -->
-        <div class="clearfix grpelem" id="pu8517"><!-- group -->
-         <div class="trigger_artefacts grpelem" id="u8517"><!-- simple frame --></div>
-         <div class="grpelem" id="u2533"><!-- simple frame --></div>
-        </div>
-        <div class="clearfix grpelem" id="pu1868"><!-- column -->
-         <div class="clearfix colelem" id="u1868"><!-- group -->
-          <div class="clearfix grpelem" id="u1871"><!-- group -->
-           <div class="shadow rounded-corners artefacts_box_tartalom gradient grpelem" id="u1872"><!-- simple frame --></div>
-          </div>
-          <div class="artefacts_text clearfix grpelem" id="u1870-4"><!-- content -->
-           <p><span id="u1870">ARTEFACTS</span></p>
-          </div>
-          <div class="rounded-corners artefacts_line grpelem" id="u1869"><!-- simple frame --></div>
-          <div class="artefacts_line grpelem" id="u1873"><!-- simple frame --></div>
-          <div class="Artefacts clip_frame grpelem" id="u1874"><!-- svg -->
+       <div class="clearfix grpelem" id="u2259"><!-- column -->
+        <div class="colelem" id="u2533"><!-- simple frame --></div>
+        <div class="clearfix colelem" id="u1868"><!-- group -->
+         <div class="shadow rounded-corners artefacts_box_tartalom gradient clearfix grpelem" id="u1872"><!-- group -->
+          <div class="clip_frame grpelem" id="u1874"><!-- svg -->
            <img class="svg svg_mar" id="u1875" src="images/artefacts.svg?crc=3813150820" onload="this.style.height=(this.offsetWidth*86/86)+'px'" alt="" data-mu-svgfallback="images/artefacts_poster_.png?crc=496116597" data-image-width="86" data-image-height="86"/>
           </div>
+          <div class="clearfix grpelem" id="pu1873"><!-- column -->
+           <div class="rounded-corners colelem" id="u1873"><!-- simple frame --></div>
+           <div class="clearfix colelem" id="u1870-4"><!-- content -->
+            <p><span id="u1870">ARTEFACTS</span></p>
+           </div>
+           <div class="rounded-corners colelem" id="u1869"><!-- simple frame --></div>
+          </div>
          </div>
-         <div class="clearfix colelem" id="pu605"><!-- group -->
-          <div class="clearfix grpelem" id="u605"><!-- group -->
-           <div class="rounded-corners data shadow gradient clearfix grpelem" id="u823"><!-- group -->
-            <div class="clearfix grpelem" id="u629-4"><!-- content -->
-             <p></p>
-            </div>
-            <div class="size_fluid_width grpelem" id="u597"><!-- custom html -->
-             
+        </div>
+        <div class="clearfix colelem" id="pu605"><!-- group -->
+         <div class="clearfix grpelem" id="u605"><!-- group -->
+          <div class="rounded-corners data shadow gradient clearfix grpelem" id="u823"><!-- group -->
+           <div class="clearfix grpelem" id="u629-4"><!-- content -->
+            <p></p>
+           </div>
+           <div class="size_fluid_width grpelem" id="u597"><!-- custom html -->
+            
 <div class="animtype2">
 <span class="animt2">DATA</span>
 </div>
 
-            </div>
            </div>
           </div>
-          <div class="clearfix grpelem" id="u602"><!-- group -->
-           <div class="shadow rounded-corners tooltech1 gradient clearfix grpelem" id="u586"><!-- group -->
-            <div class="clearfix grpelem" id="u622-4"><!-- content -->
-             <p></p>
-            </div>
-            <div class="size_fluid_width grpelem" id="u592"><!-- custom html -->
-             
+         </div>
+         <div class="clearfix grpelem" id="u602"><!-- group -->
+          <div class="shadow rounded-corners tooltech1 gradient clearfix grpelem" id="u586"><!-- group -->
+           <div class="clearfix grpelem" id="u622-4"><!-- content -->
+            <p></p>
+           </div>
+           <div class="size_fluid_width grpelem" id="u592"><!-- custom html -->
+            
 <div class="animtype2">
 <span class="animt2">TOOLS <br/> TECH</span>
 </div>
 
-            </div>
            </div>
           </div>
          </div>
-         <div class="clearfix colelem" id="pu1895-4"><!-- group -->
-          <div class="clearfix grpelem" id="u1895-4"><!-- content -->
+        </div>
+        <div class="clearfix colelem" id="pu8517"><!-- group -->
+         <div class="trigger_artefacts grpelem" id="u8517"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="pu1895-4"><!-- column -->
+          <div class="clearfix colelem" id="u1895-4"><!-- content -->
            <p id="u1895-2"><span class="Szovegdobozok" id="u1895">Organizational assets are those resources from which future economic benefit is expected. Data is such an asset of the data economy’s actors. Data can be described along six dimensions, which are source, content, format, terms of use, purpose and position in the data value chain. Data has features that evoke certain behaviour from the data economy’s actors but it usually does not have purposes of its own or powers of reproduction.</span></p>
           </div>
-          <div class="clearfix grpelem" id="u1900-4"><!-- content -->
-           <p id="u1900-2"><span class="Szovegdobozok" id="u1900">Technologies are key assets of data economy’s actors as they are the resources from which future economic benefit is expected. Technologies contribute to the economic value generation by exploiting the potentials of the data available. Tools are considered as compositions of technologies that serve a specific purpose.</span></p>
-          </div>
-         </div>
-         <div class="clearfix colelem" id="paccordionu1903"><!-- group -->
-          <ul class="AccordionWidget clearfix grpelem" id="accordionu1903"><!-- vertical box -->
+          <ul class="AccordionWidget clearfix colelem" id="accordionu1903"><!-- vertical box -->
            <li class="AccordionPanel borderbox clearfix colelem" id="u1904"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem" id="u1907-4"><!-- content --><div id="u1907-3"><p id="u1907-2"><span class="Lenyilo_fejlec" id="u1907">Source</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u1905"><!-- group --><div class="clearfix grpelem" id="u1906-4"><!-- content --><p><span class="Lenyilo_szoveg">Concerning the source, a differentiation has been made between internal and external data sources. Internal data sources include existing data and self-generated data, while external data sources include acquired data, customer-provided data and freely available data.</span></p></div></div></li>
            <li class="AccordionPanel borderbox clearfix colelem" id="u1912"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem" id="u1913-4"><!-- content --><div id="u1913-3"><p id="u1913-2"><span class="Lenyilo_fejlec" id="u1913">Content</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u1914"><!-- group --><div class="clearfix grpelem" id="u1915-4"><!-- content --><p><span class="Lenyilo_szoveg">Concerning content, three different types of data were identified. Actor data includes person data (e.g., address, medical details, transactions, communications) and organisation data (e.g., address, business facts, position, transactions, communications). Device/service data contains among others usage, configuration and status data. Environment data refers, for instance, to nature (e.g., trees in a forest), public infrastructure (e.g., streets in a city) or economic data.</span></p></div></div></li>
            <li class="AccordionPanel borderbox clearfix colelem" id="u1908"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem" id="u1911-4"><!-- content --><div id="u1911-3"><p id="u1911-2"><span class="Lenyilo_fejlec" id="u1911">Format</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u1909"><!-- group --><div class="clearfix grpelem" id="u1910-4"><!-- content --><p><span class="Lenyilo_szoveg">With respect to the format of data, a very general differentiation is made between structured and unstructured data. However, a more thorough understanding of the format is essential to allow the exploitation of data. The interpretation of data is only possible for an entity if it is known how the data was encoded for storage or transmission. XML, CSV, JSON and RDF are data formats often used to exchange data.</span></p></div></div></li>
@@ -1452,7 +1522,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
            <li class="AccordionPanel borderbox clearfix colelem" id="u2091"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem" id="u2093-4"><!-- content --><div id="u2093-3"><p id="u2093-2"><span class="Lenyilo_fejlec" id="u2093">Prupose</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u2092"><!-- group --><div class="clearfix grpelem" id="u2119-4"><!-- content --><p><span class="Lenyilo_szoveg">Purpose refers to the main goal for which data is intended to be used. Audience data is an example for data described with respect to its purpose dimension. In terms of content, audience data is actor or device/service data. Its purpose is to provide insight into the audience of some activity.</span></p></div></div></li>
            <li class="AccordionPanel borderbox clearfix colelem" id="u2103"><!-- vertical box --><div class="AccordionPanelTab borderbox transition clearfix colelem" id="u2104-4"><!-- content --><div id="u2104-3"><p id="u2104-2"><span class="Lenyilo_fejlec" id="u2104">Position in the data value chain</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u2105"><!-- group --><div class="clearfix grpelem" id="u2123-4"><!-- content --><p><span class="Lenyilo_szoveg">The position in the value chain of data indicates what has happened with the data so far as well as what are likely steps to follow to exploit the data. Terms used to describe data based on this dimension include raw data, for instance.</span></p></div></div></li>
           </ul>
-          <ul class="AccordionWidget clearfix grpelem" id="accordionu1943"><!-- vertical box -->
+         </div>
+         <div class="clearfix grpelem" id="pu1900-4"><!-- column -->
+          <div class="clearfix colelem" id="u1900-4"><!-- content -->
+           <p id="u1900-2"><span class="Szovegdobozok" id="u1900">Technologies are key assets of data economy’s actors as they are the resources from which future economic benefit is expected. Technologies contribute to the economic value generation by exploiting the potentials of the data available. Tools are considered as compositions of technologies that serve a specific purpose.</span></p>
+          </div>
+          <ul class="AccordionWidget clearfix colelem" id="accordionu1943"><!-- vertical box -->
            <li class="AccordionPanel borderbox clearfix colelem" id="u1948"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem" id="u1951-4"><!-- content --><div id="u1951-3"><p id="u1951-2"><span class="Lenyilo_fejlec" id="u1951">Purpose</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u1949"><!-- group --><div class="clearfix grpelem" id="u1950-4"><!-- content --><p><span class="Lenyilo_szoveg">The purpose identifies the main goal of a technology. For example, data storage solutions usually help to preserve and manage data and its lifecycle. Other purposes include to provide security (e.g., AES, TLS) or to allow data exchange (e.g., JSON, XML) or notifications (push, pull solutions). Data economy actors usually combine multiple technologies.</span></p></div></div></li>
            <li class="AccordionPanel borderbox clearfix colelem" id="u1952"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem" id="u1953-4"><!-- content --><div id="u1953-3"><p id="u1953-2"><span class="Lenyilo_fejlec" id="u1953">Openness</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u1954"><!-- group --><div class="clearfix grpelem" id="u1955-4"><!-- content --><p><span class="Lenyilo_szoveg">Openness describes the possibility to access and extend technologies. Technologies may be fully proprietary, commercial and closed, or follow an open-source approach or be positioned somewhere in between those extremes.</span></p></div></div></li>
            <li class="AccordionPanel borderbox clearfix colelem" id="u1944"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem" id="u1945-4"><!-- content --><div id="u1945-3"><p id="u1945-2"><span class="Lenyilo_fejlec" id="u1945">Usage</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u1946"><!-- group --><div class="clearfix grpelem" id="u1947-4"><!-- content --><p><span class="Lenyilo_szoveg">Usage reflects the distribution of technologies, which is often represented by the number of users. Technologies may be standardised but still barely used in practice, while others may be de-facto standards. Examples are XML and JSON, which are used by most data economy actors these days and thus have a large usage within the market.</span></p></div></div></li>
@@ -1465,26 +1540,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
       <div class="clearfix colelem" id="u3625"><!-- column -->
        <div class="position_content" id="u3625_position_content">
-        <div class="clearfix colelem" id="pu2256"><!-- group -->
-         <div class="clearfix grpelem" id="u2256"><!-- group -->
-          <div class="clearfix grpelem" id="pu8520"><!-- group -->
-           <div class="trigger_strategies grpelem" id="u8520"><!-- simple frame --></div>
-           <div class="grpelem" id="u2536"><!-- simple frame --></div>
-          </div>
-          <div class="clearfix grpelem" id="pu2129"><!-- column -->
-           <div class="clearfix colelem" id="u2129"><!-- group -->
-            <div class="clearfix grpelem" id="u2135"><!-- group -->
-             <div class="rounded-corners strategies_box shadow gradient grpelem" id="u2136"><!-- simple frame --></div>
-            </div>
-            <div class="strategies_text clearfix grpelem" id="u2130-4"><!-- content -->
+        <div class="clearfix colelem" id="u2256"><!-- column -->
+         <div class="colelem" id="u2476"><!-- simple frame --></div>
+         <div class="colelem" id="u2536"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="u2129"><!-- group -->
+          <div class="shadow rounded-corners strategies_box_tartalom gradient clearfix grpelem" id="u2136"><!-- group -->
+           <div class="clip_frame grpelem" id="u2132"><!-- svg -->
+            <img class="svg svg_mar" id="u2133" src="images/strategies.svg?crc=3872537615" onload="this.style.height=(this.offsetWidth*91/91)+'px'" alt="" data-mu-svgfallback="images/strategies_poster_.png?crc=347693336" data-image-width="91" data-image-height="91"/>
+           </div>
+           <div class="clearfix grpelem" id="pu2131"><!-- column -->
+            <div class="rounded-corners colelem" id="u2131"><!-- simple frame --></div>
+            <div class="clearfix colelem" id="u2130-4"><!-- content -->
              <p><span id="u2130">STRATEGIES</span></p>
             </div>
-            <div class="rounded-corners strategies_line grpelem" id="u2134"><!-- simple frame --></div>
-            <div class="strategies_line grpelem" id="u2131"><!-- simple frame --></div>
-            <div class="Strategies clip_frame grpelem" id="u2132"><!-- svg -->
-             <img class="svg svg_mar" id="u2133" src="images/strategies.svg?crc=3872537615" onload="this.style.height=(this.offsetWidth*91/91)+'px'" alt="" data-mu-svgfallback="images/strategies_poster_.png?crc=347693336" data-image-width="91" data-image-height="91"/>
-            </div>
+            <div class="rounded-corners colelem" id="u2134"><!-- simple frame --></div>
            </div>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="pu8520"><!-- group -->
+          <div class="trigger_strategies grpelem" id="u8520"><!-- simple frame --></div>
+          <div class="clearfix grpelem" id="pu2165-4"><!-- column -->
            <div class="clearfix colelem" id="u2165-4"><!-- content -->
             <p id="u2165-2"><span class="Szovegdobozok" id="u2165">Strategies describe how agents react to their surroundings and pursue goals. They include deliberate choice but also patterns of response that pursue goals with little or no deliberation. Assessment of the success of own actions and the actions and success of other actors influence the change of strategies. Processes of reproduction and copying play an important role in the context of strategies. In the context of the data economy, strategies of actors are closely related to their business models.</span></p>
            </div>
@@ -1495,109 +1570,108 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
             <li class="AccordionPanel borderbox clearfix colelem" id="u2173"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem" id="u2176-4"><!-- content --><div id="u2176-3"><p id="u2176-2"><span class="Lenyilo_fejlec" id="u2176">Technology provision</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u2174"><!-- group --><div class="clearfix grpelem" id="u2175-4"><!-- content --><p><span class="Lenyilo_szoveg">Technology provision: Actors using technology provision as basis of their business model typically provide technology-based services (e.g., a cloud-based analytics service) or technologies (e.g., a NoSQL storage solution). For technology-based services, subscription fees are typically charged, while in case of technology the products themselves are often made available free of charge and fee-based services are offered related to them. Nevertheless, there are also quite some technologies or tools that need to be licensed or bought.</span></p></div></div></li>
             <li class="AccordionPanel borderbox clearfix colelem" id="u2177"><!-- vertical box --><div class="AccordionPanelTab borderbox clearfix colelem" id="u2180-4"><!-- content --><div id="u2180-3"><p id="u2180-2"><span class="Lenyilo_fejlec" id="u2180">Consultation</span></p></div></div><div class="AccordionPanelContent disn borderbox clearfix colelem" id="u2178"><!-- group --><div class="clearfix grpelem" id="u2179-4"><!-- content --><p><span class="Lenyilo_szoveg">Consultation: Actors focusing on consultation typically provide consulting on how to benefit from data, how to build a successful data-based business model or how to use data technology, data-related trainings or courses, or data skill management. The value propositions are usually focused on the experience the respective actor has. Consulting companies typically charge a fee for their services. The amount of the fee is usually fixed individually.</span></p></div></div></li>
            </ul>
-          </div>
-          <div class="grpelem" id="u2476"><!-- simple frame --></div>
-         </div>
-         <div class="clearfix grpelem" id="u2458"><!-- group -->
-          <div class="clearfix grpelem" id="u2530"><!-- column -->
-           <div class="clearfix colelem" id="u2412-4"><!-- content -->
-            <p>Brokerage fee</p>
+           <div class="clearfix colelem" id="u2458"><!-- group -->
+            <div class="clearfix grpelem" id="u2530"><!-- column -->
+             <div class="clearfix colelem" id="u2412-4"><!-- content -->
+              <p>Brokerage fee</p>
+             </div>
+             <div class="clearfix colelem" id="pu2397-4"><!-- group -->
+              <div class="clearfix grpelem" id="u2397-4"><!-- content -->
+               <p>Renting</p>
+              </div>
+              <div class="clearfix grpelem" id="u2393-4"><!-- content -->
+               <p>Asset sale</p>
+              </div>
+             </div>
+             <div class="clearfix colelem" id="pu2415-4"><!-- group -->
+              <div class="clearfix grpelem" id="u2415-4"><!-- content -->
+               <p>Advertising</p>
+              </div>
+              <div class="clearfix grpelem" id="u2421-4"><!-- content -->
+               <p>Leasing</p>
+              </div>
+             </div>
+             <div class="clearfix colelem" id="pu2403-4"><!-- group -->
+              <div class="clearfix grpelem" id="u2403-4"><!-- content -->
+               <p>Licensing</p>
+              </div>
+              <div class="clearfix grpelem" id="u2406-4"><!-- content -->
+               <p>Usage fee</p>
+              </div>
+             </div>
+             <div class="clearfix colelem" id="pu2409-4"><!-- group -->
+              <div class="clearfix grpelem" id="u2409-4"><!-- content -->
+               <p>Subscription fee</p>
+              </div>
+              <div class="clearfix grpelem" id="u2418-4"><!-- content -->
+               <p>Lending</p>
+              </div>
+             </div>
+            </div>
+            <div class="clearfix grpelem" id="u2527"><!-- group -->
+             <div class="clearfix grpelem" id="pu2443-4"><!-- column -->
+              <div class="clearfix colelem" id="u2443-4"><!-- content -->
+               <p></p>
+              </div>
+              <div class="clearfix colelem" id="u2431-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- content -->
+               <p></p>
+              </div>
+             </div>
+             <div class="clearfix grpelem" id="pu2440-4"><!-- column -->
+              <div class="clearfix colelem" id="u2440-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8572,M12=-0.515,M21=0.515,M22=0.8572,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-8"><!-- content -->
+               <p></p>
+              </div>
+              <div class="clearfix colelem" id="u2449-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=1,M21=-1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="2"><!-- content -->
+               <p></p>
+              </div>
+             </div>
+             <div class="clearfix grpelem" id="u3700"><!-- group -->
+              <div class="clearfix grpelem" id="u3688-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- content -->
+               <p></p>
+              </div>
+              <div class="clearfix grpelem" id="u3691"><!-- group -->
+               <div class="grpelem" id="u3694"><!-- simple frame --></div>
+              </div>
+             </div>
+             <div class="clearfix grpelem" id="pu2437-4"><!-- column -->
+              <div class="clearfix colelem" id="u2437-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8572,M12=0.515,M21=-0.515,M22=0.8572,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-8"><!-- content -->
+               <p></p>
+              </div>
+              <div class="clearfix colelem" id="u2434-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="2"><!-- content -->
+               <p></p>
+              </div>
+             </div>
+             <div class="clearfix grpelem" id="pu2428-4"><!-- column -->
+              <div class="clearfix colelem" id="u2428-4"><!-- content -->
+               <p></p>
+              </div>
+              <div class="clearfix colelem" id="u2452-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- content -->
+               <p></p>
+              </div>
+             </div>
+            </div>
+            <div class="clip_frame grpelem" id="u3663"><!-- svg -->
+             <img class="svg svg_mar" id="u3659" src="images/felho_strategie.svg?crc=4198171304" onload="this.style.height=(this.offsetWidth*546/628)+'px'" alt="" data-mu-svgfallback="images/felho_strategie_poster_.png?crc=263094837" data-image-width="628" data-image-height="546"/>
+            </div>
+            <div class="clearfix grpelem" id="u2384"><!-- group -->
+             <div class="clearfix grpelem" id="u2378"><!-- group -->
+              <div class="shadow gradient rounded-corners grpelem" id="u2379"><!-- simple frame --></div>
+             </div>
+             <div class="rounded-corners clearfix grpelem" id="u2370"><!-- group -->
+              <div class="clearfix grpelem" id="u2357-4"><!-- content -->
+               <p>%</p>
+              </div>
+             </div>
+             <div class="rounded-corners grpelem" id="u2387"><!-- simple frame --></div>
+             <div class="rounded-corners grpelem" id="u2390"><!-- simple frame --></div>
+             <div class="clearfix grpelem" id="u2354-4"><!-- content -->
+              <p>REVENUE MODEL</p>
+             </div>
+             <div class="clearfix grpelem" id="u2367-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.6018,M12=0.7986,M21=-0.7986,M22=0.6018,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-10" data-mu-ie-matrix-dy="-1"><!-- content -->
+              <p>&gt;</p>
+             </div>
+            </div>
            </div>
-           <div class="clearfix colelem" id="pu2397-4"><!-- group -->
-            <div class="clearfix grpelem" id="u2397-4"><!-- content -->
-             <p>Renting</p>
-            </div>
-            <div class="clearfix grpelem" id="u2393-4"><!-- content -->
-             <p>Asset sale</p>
-            </div>
-           </div>
-           <div class="clearfix colelem" id="pu2415-4"><!-- group -->
-            <div class="clearfix grpelem" id="u2415-4"><!-- content -->
-             <p>Advertising</p>
-            </div>
-            <div class="clearfix grpelem" id="u2421-4"><!-- content -->
-             <p>Leasing</p>
-            </div>
-           </div>
-           <div class="clearfix colelem" id="pu2403-4"><!-- group -->
-            <div class="clearfix grpelem" id="u2403-4"><!-- content -->
-             <p>Licensing</p>
-            </div>
-            <div class="clearfix grpelem" id="u2406-4"><!-- content -->
-             <p>Usage fee</p>
-            </div>
-           </div>
-           <div class="clearfix colelem" id="pu2409-4"><!-- group -->
-            <div class="clearfix grpelem" id="u2409-4"><!-- content -->
-             <p>Subscription fee</p>
-            </div>
-            <div class="clearfix grpelem" id="u2418-4"><!-- content -->
-             <p>Lending</p>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u2527"><!-- group -->
-           <div class="clearfix grpelem" id="pu2443-4"><!-- column -->
-            <div class="clearfix colelem" id="u2443-4"><!-- content -->
-             <p></p>
-            </div>
-            <div class="clearfix colelem" id="u2431-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- content -->
-             <p></p>
-            </div>
-           </div>
-           <div class="clearfix grpelem" id="pu2440-4"><!-- column -->
-            <div class="clearfix colelem" id="u2440-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8572,M12=-0.515,M21=0.515,M22=0.8572,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-8"><!-- content -->
-             <p></p>
-            </div>
-            <div class="clearfix colelem" id="u2449-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=1,M21=-1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="2"><!-- content -->
-             <p></p>
-            </div>
-           </div>
-           <div class="clearfix grpelem" id="pu2437-4"><!-- column -->
-            <div class="clearfix colelem" id="u2437-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.8572,M12=0.515,M21=-0.515,M22=0.8572,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-8" data-mu-ie-matrix-dy="-8"><!-- content -->
-             <p></p>
-            </div>
-            <div class="clearfix colelem" id="u2434-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-2" data-mu-ie-matrix-dy="2"><!-- content -->
-             <p></p>
-            </div>
-           </div>
-           <div class="clearfix grpelem" id="pu2428-4"><!-- column -->
-            <div class="clearfix colelem" id="u2428-4"><!-- content -->
-             <p></p>
-            </div>
-            <div class="clearfix colelem" id="u2452-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-1,M12=0,M21=0,M22=-1,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- content -->
-             <p></p>
-            </div>
-           </div>
-          </div>
-          <div class="clearfix grpelem" id="u2384"><!-- group -->
-           <div class="clearfix grpelem" id="u2378"><!-- group -->
-            <div class="shadow gradient rounded-corners grpelem" id="u2379"><!-- simple frame --></div>
-           </div>
-           <div class="rounded-corners clearfix grpelem" id="u2370"><!-- group -->
-            <div class="clearfix grpelem" id="u2357-4"><!-- content -->
-             <p>%</p>
-            </div>
-           </div>
-           <div class="rounded-corners grpelem" id="u2387"><!-- simple frame --></div>
-           <div class="rounded-corners grpelem" id="u2390"><!-- simple frame --></div>
-           <div class="clearfix grpelem" id="u2354-4"><!-- content -->
-            <p>REVENUE MODEL</p>
-           </div>
-           <div class="clearfix grpelem" id="u2367-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.6018,M12=0.7986,M21=-0.7986,M22=0.6018,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-10" data-mu-ie-matrix-dy="-1"><!-- content -->
-            <p>&gt;</p>
-           </div>
-          </div>
-         </div>
-         <div class="clip_frame grpelem" id="u3663"><!-- svg -->
-          <img class="svg svg_mar" id="u3659" src="images/felho_strategie.svg?crc=4198171304" onload="this.style.height=(this.offsetWidth*546/628)+'px'" alt="" data-mu-svgfallback="images/felho_strategie_poster_.png?crc=263094837" data-image-width="628" data-image-height="546"/>
-         </div>
-         <div class="clearfix grpelem" id="u3700"><!-- group -->
-          <div class="clearfix grpelem" id="u3688-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="0" data-mu-ie-matrix-dy="0"><!-- content -->
-           <p></p>
-          </div>
-          <div class="clearfix grpelem" id="u3691"><!-- group -->
-           <div class="grpelem" id="u3694"><!-- simple frame --></div>
           </div>
          </div>
         </div>
@@ -1607,10 +1681,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
     </div>
     <div class="gradient grpelem" id="u790"><!-- simple frame --></div>
-    <div class="clearfix grpelem" id="partefacts"><!-- column -->
-     <a class="anchor_item colelem" id="artefacts"></a>
-     <a class="anchor_item colelem" id="strategies"></a>
-    </div>
     <div class="size_fluid_width grpelem" id="u785"><!-- custom html -->
      
 <!-- particles.js container -->
@@ -1798,7 +1868,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <a class="nonblock nontext anim_swing shadow rounded-corners artefacts_box gradient grpelem" id="u504" href="data-holders.html#artefacts"><!-- simple frame --></a>
      </div>
      <a class="nonblock nontext anim_swing artefacts_text clearfix grpelem" id="u512-4" href="data-holders.html#artefacts"><!-- content --><p><span id="u512">ARTEFACTS</span></p></a>
-     <a class="nonblock nontext anim_swing artefacts_line grpelem" id="u515" href="data-holders.html#artefacts"><!-- simple frame --></a>
+     <a class="nonblock nontext anim_swing rounded-corners artefacts_line grpelem" id="u515" href="data-holders.html#artefacts"><!-- simple frame --></a>
      <a class="nonblock nontext anim_swing artefacts_line grpelem" id="u509" href="data-holders.html#artefacts"><!-- simple frame --></a>
      <a class="nonblock nontext anim_swing Artefacts clip_frame grpelem" id="u206" href="data-holders.html#artefacts"><!-- svg --><img class="svg svg_mar" id="u202" src="images/artefacts.svg?crc=3813150820" onload="this.style.height=(this.offsetWidth*54.27314875358617/54.27314875358618)+'px'" alt="" data-mu-svgfallback="images/artefacts_poster_.png?crc=496116597" data-image-width="54" data-image-height="54"/></a>
      <a class="nonblock nontext anim_swing grpelem" id="u2306" href="data-holders.html#artefacts"><!-- simple frame --></a>
@@ -1815,16 +1885,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <div class="rounded-corners attitude_line grpelem" id="u298"><!-- simple frame --></div>
      <div class="attitude_line grpelem" id="u295"><!-- simple frame --></div>
-    </div>
-    <div class="clearfix grpelem" id="u645"><!-- group -->
-     <div class="clearfix grpelem" id="u518"><!-- group -->
-      <a class="nonblock nontext anim_swing strategies_box shadow gradient grpelem" id="u519" href="data-holders.html#strategies"><!-- simple frame --></a>
-     </div>
-     <a class="nonblock nontext anim_swing strategies_text clearfix grpelem" id="u527-4" href="data-holders.html#strategies"><!-- content --><p><span id="u527">STRATEGIES</span></p></a>
-     <a class="nonblock nontext anim_swing strategies_line grpelem" id="u530" href="data-holders.html#strategies"><!-- simple frame --></a>
-     <a class="nonblock nontext anim_swing strategies_line grpelem" id="u524" href="data-holders.html#strategies"><!-- simple frame --></a>
-     <a class="nonblock nontext anim_swing Strategies clip_frame grpelem" id="u224" href="data-holders.html#strategies"><!-- svg --><img class="svg svg_mar" id="u220" src="images/strategies.svg?crc=3872537615" onload="this.style.height=(this.offsetWidth*54/54)+'px'" alt="" data-mu-svgfallback="images/strategies_poster_.png?crc=347693336" data-image-width="54" data-image-height="54"/></a>
-     <a class="nonblock nontext anim_swing grpelem" id="u2309" href="data-holders.html#strategies"><!-- simple frame --></a>
     </div>
     <div class="clearfix grpelem" id="u642"><!-- group -->
      <div class="clearfix grpelem" id="u557"><!-- group -->
@@ -1890,6 +1950,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
+    <a class="anchor_item grpelem" id="artefacts"></a>
+    <div class="grpelem" id="u8787"><!-- simple frame --></div>
+    <a class="anchor_item grpelem" id="strategies"></a>
+    <div class="clearfix grpelem" id="u645"><!-- group -->
+     <div class="clearfix grpelem" id="u518"><!-- group -->
+      <a class="nonblock nontext anim_swing rounded-corners strategies_box shadow gradient grpelem" id="u519" href="data-holders.html#strategies"><!-- simple frame --></a>
+     </div>
+     <a class="nonblock nontext anim_swing strategies_text clearfix grpelem" id="u527-4" href="data-holders.html#strategies"><!-- content --><p><span id="u527">STRATEGIES</span></p></a>
+     <a class="nonblock nontext anim_swing rounded-corners strategies_line grpelem" id="u530" href="data-holders.html#strategies"><!-- simple frame --></a>
+     <a class="nonblock nontext anim_swing strategies_line grpelem" id="u524" href="data-holders.html#strategies"><!-- simple frame --></a>
+     <a class="nonblock nontext anim_swing Strategies clip_frame grpelem" id="u224" href="data-holders.html#strategies"><!-- svg --><img class="svg svg_mar" id="u220" src="images/strategies.svg?crc=3872537615" onload="this.style.height=(this.offsetWidth*54/54)+'px'" alt="" data-mu-svgfallback="images/strategies_poster_.png?crc=347693336" data-image-width="54" data-image-height="54"/></a>
+     <a class="nonblock nontext anim_swing grpelem" id="u2309" href="data-holders.html#strategies"><!-- simple frame --></a>
+    </div>
    </div>
    <div class="clearfix colelem" id="pu8448"><!-- group -->
     <a class="nonblock nontext anim_swing rounded-corners oldal_holder museBGSize" id="u8448" href="data-holders.html#data_holder"><!-- simple frame --></a>
@@ -1897,7 +1970,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <a class="nonblock nontext anim_swing museBGSize rounded-corners oldal_strategies" id="u8492" href="data-holders.html#strategies"><!-- simple frame --></a>
     <div class="museBGSize rounded-corners oldal_enviroment" id="u8503"><!-- simple frame --></div>
    </div>
-   <div class="verticalspacer" data-offset-top="3480" data-content-above-spacer="3480" data-content-below-spacer="109"></div>
+   <div class="verticalspacer" data-offset-top="3514" data-content-above-spacer="3514" data-content-below-spacer="75"></div>
    <div class="clearfix colelem" id="u6190-4"><!-- content -->
     <p>CONTACT</p>
    </div>
@@ -3130,7 +3203,7 @@ var myElement22 = document.getElementsByClassName("trigger_strategies");
 
 var elementWatcher22 = scrollMonitor.create(myElement22, {top: 0, bottom: 0});
 
-elementWatcher22.fullyEnterViewport(function() {
+elementWatcher22.enterViewport(function() {
     motion22.play();
 });
 if (0 == 0) {
@@ -3170,6 +3243,14 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
   
   <!--HTML Widget code-->
   
+<script>
+$(window).load(function() {
+  $('#status').delay(0).fadeOut();
+  $('#preloader').delay(50).fadeOut('slow');
+  $('body').delay(350).css({'overflow':'visible'});
+});
+</script>
+
 <script>
 !function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define("scrollMonitor",[],e):"object"==typeof exports?exports.scrollMonitor=e():t.scrollMonitor=e()}(this,function(){return function(t){function e(o){if(i[o])return i[o].exports;var s=i[o]={exports:{},id:o,loaded:!1};return t[o].call(s.exports,s,s.exports,e),s.loaded=!0,s.exports}var i={};return e.m=t,e.c=i,e.p="",e(0)}([function(t,e,i){"use strict";var o=i(1),s=o.isInBrowser,n=i(2),r=new n(s?document.body:null);r.setStateFromDOM(null),r.listenToDOM(),s&&(window.scrollMonitor=r),t.exports=r},function(t,e){"use strict";e.VISIBILITYCHANGE="visibilityChange",e.ENTERVIEWPORT="enterViewport",e.FULLYENTERVIEWPORT="fullyEnterViewport",e.EXITVIEWPORT="exitViewport",e.PARTIALLYEXITVIEWPORT="partiallyExitViewport",e.LOCATIONCHANGE="locationChange",e.STATECHANGE="stateChange",e.eventTypes=[e.VISIBILITYCHANGE,e.ENTERVIEWPORT,e.FULLYENTERVIEWPORT,e.EXITVIEWPORT,e.PARTIALLYEXITVIEWPORT,e.LOCATIONCHANGE,e.STATECHANGE],e.isOnServer="undefined"==typeof window,e.isInBrowser=!e.isOnServer,e.defaultOffsets={top:0,bottom:0}},function(t,e,i){"use strict";function o(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function s(t){return c?0:t===document.body?window.innerHeight||document.documentElement.clientHeight:t.clientHeight}function n(t){return c?0:t===document.body?Math.max(document.body.scrollHeight,document.documentElement.scrollHeight,document.body.offsetHeight,document.documentElement.offsetHeight,document.documentElement.clientHeight):t.scrollHeight}function r(t){return c?0:t===document.body?window.pageYOffset||document.documentElement&&document.documentElement.scrollTop||document.body.scrollTop:t.scrollTop}var h=i(1),c=h.isOnServer,a=h.isInBrowser,l=h.eventTypes,p=i(3),w=function(){function t(e,i){function h(){if(a.viewportTop=r(e),a.viewportBottom=a.viewportTop+a.viewportHeight,a.documentHeight=n(e),a.documentHeight!==p){for(w=a.watchers.length;w--;)a.watchers[w].recalculateLocation();p=a.documentHeight}}function c(){for(u=a.watchers.length;u--;)a.watchers[u].update();for(u=a.watchers.length;u--;)a.watchers[u].triggerCallbacks()}o(this,t);var a=this;this.item=e,this.watchers=[],this.viewportTop=null,this.viewportBottom=null,this.documentHeight=n(e),this.viewportHeight=s(e),this.DOMListener=function(){t.prototype.DOMListener.apply(a,arguments)},this.eventTypes=l,i&&(this.containerWatcher=i.create(e));var p,w,u;this.update=function(){h(),c()},this.recalculateLocations=function(){this.documentHeight=0,this.update()}}return t.prototype.listenToDOM=function(){a&&(window.addEventListener?(this.item===document.body?window.addEventListener("scroll",this.DOMListener):this.item.addEventListener("scroll",this.DOMListener),window.addEventListener("resize",this.DOMListener)):(this.item===document.body?window.attachEvent("onscroll",this.DOMListener):this.item.attachEvent("onscroll",this.DOMListener),window.attachEvent("onresize",this.DOMListener)),this.destroy=function(){window.addEventListener?(this.item===document.body?(window.removeEventListener("scroll",this.DOMListener),this.containerWatcher.destroy()):this.item.removeEventListener("scroll",this.DOMListener),window.removeEventListener("resize",this.DOMListener)):(this.item===document.body?(window.detachEvent("onscroll",this.DOMListener),this.containerWatcher.destroy()):this.item.detachEvent("onscroll",this.DOMListener),window.detachEvent("onresize",this.DOMListener))})},t.prototype.destroy=function(){},t.prototype.DOMListener=function(t){this.setStateFromDOM(t)},t.prototype.setStateFromDOM=function(t){var e=r(this.item),i=s(this.item),o=n(this.item);this.setState(e,i,o,t)},t.prototype.setState=function(t,e,i,o){var s=e!==this.viewportHeight||i!==this.contentHeight;if(this.latestEvent=o,this.viewportTop=t,this.viewportHeight=e,this.viewportBottom=t+e,this.contentHeight=i,s)for(var n=this.watchers.length;n--;)this.watchers[n].recalculateLocation();this.updateAndTriggerWatchers(o)},t.prototype.updateAndTriggerWatchers=function(t){for(var e=this.watchers.length;e--;)this.watchers[e].update();for(e=this.watchers.length;e--;)this.watchers[e].triggerCallbacks(t)},t.prototype.createCustomContainer=function(){return new t},t.prototype.createContainer=function(e){"string"==typeof e?e=document.querySelector(e):e&&e.length>0&&(e=e[0]);var i=new t(e,this);return i.setStateFromDOM(),i.listenToDOM(),i},t.prototype.create=function(t,e){"string"==typeof t?t=document.querySelector(t):t&&t.length>0&&(t=t[0]);var i=new p(this,t,e);return this.watchers.push(i),i},t.prototype.beget=function(t,e){return this.create(t,e)},t}();t.exports=w},function(t,e,i){"use strict";function o(t,e,i){function o(t,e){if(0!==t.length)for(E=t.length;E--;)T=t[E],T.callback.call(s,e,s),T.isOne&&t.splice(E,1)}var s=this;this.watchItem=e,this.container=t,i?i===+i?this.offsets={top:i,bottom:i}:this.offsets={top:i.top||u.top,bottom:i.bottom||u.bottom}:this.offsets=u,this.callbacks={};for(var d=0,f=w.length;d<f;d++)s.callbacks[w[d]]=[];this.locked=!1;var m,v,b,I,E,T;this.triggerCallbacks=function(t){switch(this.isInViewport&&!m&&o(this.callbacks[r],t),this.isFullyInViewport&&!v&&o(this.callbacks[h],t),this.isAboveViewport!==b&&this.isBelowViewport!==I&&(o(this.callbacks[n],t),v||this.isFullyInViewport||(o(this.callbacks[h],t),o(this.callbacks[a],t)),m||this.isInViewport||(o(this.callbacks[r],t),o(this.callbacks[c],t))),!this.isFullyInViewport&&v&&o(this.callbacks[a],t),!this.isInViewport&&m&&o(this.callbacks[c],t),this.isInViewport!==m&&o(this.callbacks[n],t),!0){case m!==this.isInViewport:case v!==this.isFullyInViewport:case b!==this.isAboveViewport:case I!==this.isBelowViewport:o(this.callbacks[p],t)}m=this.isInViewport,v=this.isFullyInViewport,b=this.isAboveViewport,I=this.isBelowViewport},this.recalculateLocation=function(){if(!this.locked){var t=this.top,e=this.bottom;if(this.watchItem.nodeName){var i=this.watchItem.style.display;"none"===i&&(this.watchItem.style.display="");for(var s=0,n=this.container;n.containerWatcher;)s+=n.containerWatcher.top-n.containerWatcher.container.viewportTop,n=n.containerWatcher.container;var r=this.watchItem.getBoundingClientRect();this.top=r.top+this.container.viewportTop-s,this.bottom=r.bottom+this.container.viewportTop-s,"none"===i&&(this.watchItem.style.display=i)}else this.watchItem===+this.watchItem?this.watchItem>0?this.top=this.bottom=this.watchItem:this.top=this.bottom=this.container.documentHeight-this.watchItem:(this.top=this.watchItem.top,this.bottom=this.watchItem.bottom);this.top-=this.offsets.top,this.bottom+=this.offsets.bottom,this.height=this.bottom-this.top,void 0===t&&void 0===e||this.top===t&&this.bottom===e||o(this.callbacks[l],null)}},this.recalculateLocation(),this.update(),m=this.isInViewport,v=this.isFullyInViewport,b=this.isAboveViewport,I=this.isBelowViewport}var s=i(1),n=s.VISIBILITYCHANGE,r=s.ENTERVIEWPORT,h=s.FULLYENTERVIEWPORT,c=s.EXITVIEWPORT,a=s.PARTIALLYEXITVIEWPORT,l=s.LOCATIONCHANGE,p=s.STATECHANGE,w=s.eventTypes,u=s.defaultOffsets;o.prototype={on:function(t,e,i){switch(!0){case t===n&&!this.isInViewport&&this.isAboveViewport:case t===r&&this.isInViewport:case t===h&&this.isFullyInViewport:case t===c&&this.isAboveViewport&&!this.isInViewport:case t===a&&this.isInViewport&&this.isAboveViewport:if(e.call(this,this.container.latestEvent,this),i)return}if(!this.callbacks[t])throw new Error("Tried to add a scroll monitor listener of type "+t+". Your options are: "+w.join(", "));this.callbacks[t].push({callback:e,isOne:i||!1})},off:function(t,e){if(!this.callbacks[t])throw new Error("Tried to remove a scroll monitor listener of type "+t+". Your options are: "+w.join(", "));for(var i,o=0;i=this.callbacks[t][o];o++)if(i.callback===e){this.callbacks[t].splice(o,1);break}},one:function(t,e){this.on(t,e,!0)},recalculateSize:function(){this.height=this.watchItem.offsetHeight+this.offsets.top+this.offsets.bottom,this.bottom=this.top+this.height},update:function(){this.isAboveViewport=this.top<this.container.viewportTop,this.isBelowViewport=this.bottom>this.container.viewportBottom,this.isInViewport=this.top<this.container.viewportBottom&&this.bottom>this.container.viewportTop,this.isFullyInViewport=this.top>=this.container.viewportTop&&this.bottom<=this.container.viewportBottom||this.isAboveViewport&&this.isBelowViewport},destroy:function(){var t=this.container.watchers.indexOf(this),e=this;this.container.watchers.splice(t,1);for(var i=0,o=w.length;i<o;i++)e.callbacks[w[i]].length=0},lock:function(){this.locked=!0},unlock:function(){this.locked=!1}};for(var d=function(t){return function(e,i){this.on.call(this,t,e,i)}},f=0,m=w.length;f<m;f++){var v=w[f];o.prototype[v]=d(v)}t.exports=o}])});
 </script>
@@ -3702,7 +3783,7 @@ $('.enablers_text').addClass('animated24 null fadeInRight');
 
 <script>
 //if(window.innerWidth > 480){
-var scene = new ScrollMagic.Scene({triggerElement:".data_holder_box_tartalom",triggerHook:.5,duration:500})
+var scene = new ScrollMagic.Scene({triggerElement:".data_holder_box_tartalom",triggerHook:0.8,duration:500})
 	.on("enter", function () {
      $('.data_holder_box_tartalom').animate({opacity:1},1000);
 		$('.data_holder_box_tartalom').addClass('animated35 null swashIn');
@@ -3721,15 +3802,15 @@ var scene = new ScrollMagic.Scene({triggerElement:".data_holder_box_tartalom",tr
 
 <script>
 //if(window.innerWidth > 480){
-var scene = new ScrollMagic.Scene({triggerElement:".artefacts_box_tartalom",triggerHook:.5,duration:500})
+var scene = new ScrollMagic.Scene({triggerElement:".artefacts_box_tartalom",triggerHook:0.8,duration:500})
 	.on("enter", function () {
      $('.artefacts_box_tartalom').animate({opacity:1},1000);
-		$('.artefacts_box_tartalom').addClass('animated35 null swashIn');
+		$('.artefacts_box_tartalom').addClass('animated36 null swashIn');
     $('.artefacts_box_tartalom').clearQueue();
 	})
 	.on("leave", function () {
     //$('.artefacts_box_tartalom').animate({opacity:0},1000);
-		//$('.artefacts_box_tartalom').removeClass('animated35 null swashIn');
+		//$('.artefacts_box_tartalom').removeClass('animated36 null swashIn');
     $('.artefacts_box_tartalom').clearQueue();
 	})
 	//.addIndicators()
@@ -3740,15 +3821,15 @@ var scene = new ScrollMagic.Scene({triggerElement:".artefacts_box_tartalom",trig
 
 <script>
 //if(window.innerWidth > 480){
-var scene = new ScrollMagic.Scene({triggerElement:".data",triggerHook:.5,duration:500})
+var scene = new ScrollMagic.Scene({triggerElement:".data",triggerHook:0.8,duration:500})
 	.on("enter", function () {
      $('.data').animate({opacity:1},1000);
-		$('.data').addClass('animated35 null swashIn');
+		$('.data').addClass('animated37 null slideInLeft');
     $('.data').clearQueue();
 	})
 	.on("leave", function () {
     //$('.data').animate({opacity:0},1000);
-		//$('.data').removeClass('animated35 null swashIn');
+		//$('.data').removeClass('animated37 null slideInLeft');
     $('.data').clearQueue();
 	})
 	//.addIndicators()
@@ -3759,21 +3840,40 @@ var scene = new ScrollMagic.Scene({triggerElement:".data",triggerHook:.5,duratio
 
 <script>
 //if(window.innerWidth > 480){
-var scene = new ScrollMagic.Scene({triggerElement:".tooltech1",triggerHook:.5,duration:500})
+var scene = new ScrollMagic.Scene({triggerElement:".tooltech1",triggerHook:0.8,duration:500})
 	.on("enter", function () {
      $('.tooltech1').animate({opacity:1},1000);
-		$('.tooltech1').addClass('animated30 null swashIn');
+		$('.tooltech1').addClass('animated30 null slideInRight');
     $('.tooltech1').clearQueue();
 	})
 	.on("leave", function () {
     //$('.tooltech1').animate({opacity:0},1000);
-		//$('.tooltech1').removeClass('animated30 null swashIn');
+		//$('.tooltech1').removeClass('animated30 null slideInRight');
     $('.tooltech1').clearQueue();
 	})
 	//.addIndicators()
 	.addTo(controller);
 //}
 //if(window.innerWidth < 480){$('.tooltech1').css('opacity', 1);}
+</script>
+
+<script>
+//if(window.innerWidth > 480){
+var scene = new ScrollMagic.Scene({triggerElement:".strategies_box_tartalom",triggerHook:0.8,duration:500})
+	.on("enter", function () {
+     $('.strategies_box_tartalom').animate({opacity:1},1000);
+		$('.strategies_box_tartalom').addClass('animated38 null swashIn');
+    $('.strategies_box_tartalom').clearQueue();
+	})
+	.on("leave", function () {
+    //$('.strategies_box_tartalom').animate({opacity:0},1000);
+		//$('.strategies_box_tartalom').removeClass('animated38 null swashIn');
+    $('.strategies_box_tartalom').clearQueue();
+	})
+	//.addIndicators()
+	.addTo(controller);
+//}
+//if(window.innerWidth < 480){$('.strategies_box_tartalom').css('opacity', 1);}
 </script>
 
 <script>
