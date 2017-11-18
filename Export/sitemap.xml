@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>http://holder.html/data-holders.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <lastmod>2017-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -55,6 +55,12 @@
     </image:image>
     <image:image>
       <image:loc>http://holder.html/images/socio_economic.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/technological_kulcs.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/legal_merleg.svg</image:loc>
     </image:image>
   </url>
   <url>
