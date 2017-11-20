@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://holder.html/index.html</loc>
-    <lastmod>2017-11-18</lastmod>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -18,75 +18,51 @@
       <image:loc>http://holder.html/images/solution_provider.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/data_users_big-min-crop-u6354.png</image:loc>
+      <image:loc>http://holder.html/images/data_users_big-min.png</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://holder.html/data-holders.html</loc>
-    <lastmod>2017-11-18</lastmod>
+    <lastmod>2017-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://holder.html/images/data_holders_big-crop-u1840.png</image:loc>
+      <image:loc>http://holder.html/images/data_holders_big.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/artefacts.svg</image:loc>
+      <image:loc>http://holder.html/images/artefacts.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/strategies.svg</image:loc>
+      <image:loc>http://holder.html/images/strategies.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://holder.html/images/felho_strategie.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/data_holders_big-crop-u102.png</image:loc>
+      <image:loc>http://holder.html/images/attitude.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/attitude.svg</image:loc>
+      <image:loc>http://holder.html/images/technological_kulcs.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/enviroment.svg</image:loc>
+      <image:loc>http://holder.html/images/asset%2067.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/enablers_emberke.svg</image:loc>
+      <image:loc>http://holder.html/images/enviroment.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/technological_kulcs.svg</image:loc>
+      <image:loc>http://holder.html/images/enablers_emberke.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://holder.html/images/socio_economic.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://holder.html/images/legal_merleg.svg</image:loc>
+      <image:loc>http://holder.html/images/legal_merleg.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>http://holder.html/untitled-2.html</loc>
-    <lastmod>2017-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://holder.html/images/artefacts.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://holder.html/images/strategies.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://holder.html/images/attitude.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://holder.html/images/enviroment.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://holder.html/technological.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <loc>http://holder.html/data-economy-actors.html</loc>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -95,7 +71,7 @@
   </url>
   <url>
     <loc>http://holder.html/enviromental-factors.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -104,7 +80,7 @@
   </url>
   <url>
     <loc>http://holder.html/legal.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -113,7 +89,7 @@
   </url>
   <url>
     <loc>http://holder.html/socio-economic.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -121,44 +97,8 @@
     </image:image>
   </url>
   <url>
-    <loc>http://holder.html/solution-providers.html</loc>
-    <lastmod>2017-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://holder.html/data-economy-actors.html</loc>
-    <lastmod>2017-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://holder.html/data-users.html</loc>
-    <lastmod>2017-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://holder.html/data-distributors.html</loc>
-    <lastmod>2017-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://holder.html/case-1.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <loc>http://holder.html/technological.html</loc>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -167,7 +107,34 @@
   </url>
   <url>
     <loc>http://holder.html/data-use-cases.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <lastmod>2017-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://holder.html/data-users.html</loc>
+    <lastmod>2017-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://holder.html/data-distributors.html</loc>
+    <lastmod>2017-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://holder.html/solution-providers.html</loc>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -176,11 +143,41 @@
   </url>
   <url>
     <loc>http://holder.html/jatszoter.html</loc>
-    <lastmod>2017-11-16</lastmod>
+    <lastmod>2017-12-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
       <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://holder.html/case-1.html</loc>
+    <lastmod>2017-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://holder.html/home-big.html</loc>
+    <lastmod>2017-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://holder.html/images/eudeco-footer22.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/data_holders_big-min.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/data_distributors.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/solution_provider.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://holder.html/images/data_users_big-min-crop-u8926.png</image:loc>
     </image:image>
   </url>
   <url>

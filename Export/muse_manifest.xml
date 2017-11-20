@@ -1,35 +1,35 @@
-<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="holder.html" resolutions="1x" timestamp="1511038663132">
+<manifest alg="2" build="2017.0.3.363" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="holder.html" resolutions="1x" timestamp="1513936544778">
   <folder name="css">
     <file name="site_global.css" crc="421218365"/>
-    <file name="master_a-master.css" crc="4178272280" ref="data-holders:index:legal:untitled-2:solution-providers:data-economy-actors:technological:socio-economic:jatszoter:data-distributors:enviromental-factors:case-1:data-users:data-use-cases"/>
-    <file name="data-holders.css" crc="3826205751" ref="data-holders"/>
-    <file name="iefonts_data-holders.css" crc="107212970" ref="data-holders"/>
-    <file name="index.css" crc="307140094" ref="index"/>
-    <file name="iefonts_index.css" crc="4212901826" ref="index"/>
-    <file name="legal.css" crc="3935517189" ref="legal"/>
-    <file name="iefonts_legal.css" crc="236326489" ref="legal"/>
-    <file name="untitled-2.css" crc="4275150015" ref="untitled-2"/>
-    <file name="iefonts_untitled-2.css" crc="236326489" ref="untitled-2"/>
-    <file name="solution-providers.css" crc="3935517189" ref="solution-providers"/>
-    <file name="iefonts_solution-providers.css" crc="236326489" ref="solution-providers"/>
-    <file name="data-economy-actors.css" crc="3935517189" ref="data-economy-actors"/>
-    <file name="iefonts_data-economy-actors.css" crc="236326489" ref="data-economy-actors"/>
-    <file name="technological.css" crc="3988959523" ref="technological"/>
-    <file name="iefonts_technological.css" crc="236326489" ref="technological"/>
-    <file name="socio-economic.css" crc="3935517189" ref="socio-economic"/>
-    <file name="iefonts_socio-economic.css" crc="236326489" ref="socio-economic"/>
-    <file name="jatszoter.css" crc="4210149505" ref="jatszoter"/>
+    <file name="master_a-master.css" crc="68643389" ref="jatszoter:technological:data-distributors:socio-economic:index:data-holders:enviromental-factors:case-1:data-users:legal:data-use-cases:home-big:data-economy-actors:solution-providers"/>
+    <file name="jatszoter.css" crc="356651576" ref="jatszoter"/>
     <file name="iefonts_jatszoter.css" crc="225560224" ref="jatszoter"/>
-    <file name="data-distributors.css" crc="3935517189" ref="data-distributors"/>
+    <file name="technological.css" crc="3886310931" ref="technological"/>
+    <file name="iefonts_technological.css" crc="236326489" ref="technological"/>
+    <file name="data-distributors.css" crc="4085015984" ref="data-distributors"/>
     <file name="iefonts_data-distributors.css" crc="236326489" ref="data-distributors"/>
-    <file name="enviromental-factors.css" crc="3935517189" ref="enviromental-factors"/>
+    <file name="socio-economic.css" crc="4085015984" ref="socio-economic"/>
+    <file name="iefonts_socio-economic.css" crc="236326489" ref="socio-economic"/>
+    <file name="index.css" crc="4181816804" ref="index"/>
+    <file name="iefonts_index.css" crc="4212901826" ref="index"/>
+    <file name="data-holders.css" crc="4117269618" ref="data-holders"/>
+    <file name="iefonts_data-holders.css" crc="4058813694" ref="data-holders"/>
+    <file name="enviromental-factors.css" crc="4085015984" ref="enviromental-factors"/>
     <file name="iefonts_enviromental-factors.css" crc="236326489" ref="enviromental-factors"/>
-    <file name="case-1.css" crc="3935517189" ref="case-1"/>
+    <file name="case-1.css" crc="4085015984" ref="case-1"/>
     <file name="iefonts_case-1.css" crc="236326489" ref="case-1"/>
-    <file name="data-users.css" crc="3935517189" ref="data-users"/>
+    <file name="data-users.css" crc="4085015984" ref="data-users"/>
     <file name="iefonts_data-users.css" crc="236326489" ref="data-users"/>
-    <file name="data-use-cases.css" crc="3935517189" ref="data-use-cases"/>
+    <file name="legal.css" crc="4085015984" ref="legal"/>
+    <file name="iefonts_legal.css" crc="236326489" ref="legal"/>
+    <file name="data-use-cases.css" crc="4085015984" ref="data-use-cases"/>
     <file name="iefonts_data-use-cases.css" crc="236326489" ref="data-use-cases"/>
+    <file name="home-big.css" crc="3864538253" ref="home-big"/>
+    <file name="iefonts_home-big.css" crc="4047239947" ref="home-big"/>
+    <file name="data-economy-actors.css" crc="4085015984" ref="data-economy-actors"/>
+    <file name="iefonts_data-economy-actors.css" crc="236326489" ref="data-economy-actors"/>
+    <file name="solution-providers.css" crc="4085015984" ref="solution-providers"/>
+    <file name="iefonts_solution-providers.css" crc="236326489" ref="solution-providers"/>
   </folder>
   <folder name="fonts">
     <file name="fontawesome-webfont.woff" crc="462672289"/>
@@ -43,76 +43,65 @@
     <file name="menuff.svg" crc="363967041" seo="true" mt="1510827410000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="museutils.js" crc="46400467" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="whatinput.js" crc="86476730" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="museconfig.js" crc="436936948" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="jquery.watch.js" crc="4178585335" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="webpro.js" crc="4152390327" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="musewpslideshow.js" crc="380562115" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="jquery.museoverlay.js" crc="3986278607" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
-    <file name="touchswipe.js" crc="4228958816" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="museutils.js" crc="46400467" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="whatinput.js" crc="86476730" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="museconfig.js" crc="436936948" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="webpro.js" crc="4152390327" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="musewpslideshow.js" crc="380562115" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="jquery.museoverlay.js" crc="3986278607" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="touchswipe.js" crc="4228958816" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
     <file name="musewpdisclosure.js" crc="204784597" ref="data-holders"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="data-holders:index"/>
-    <file name="require.js" crc="85721165" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="532123423" ref="data-holders:index:home-big"/>
+    <file name="jquery.watch.js" crc="4178585335" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
+    <file name="require.js" crc="85721165" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big"/>
   </folder>
   <folder name="images">
-    <file name="data_holders_big-crop-u1840.png" crc="13319648" seo="true" ref="data-holders">
-      <caption webpage="data-holders" alt=""/>
-    </file>
-    <file name="artefacts.svg" crc="3813150820" seo="true" ref="data-holders:untitled-2">
-      <caption webpage="untitled-2" alt=""/>
+    <file name="data_holders_big.png" crc="73147622" seo="true" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="artefacts_poster_.png" crc="496116597" ref="data-holders"/>
-    <file name="blank.gif" crc="4208392903" ref="data-holders:untitled-2"/>
-    <file name="strategies.svg" crc="3872537615" seo="true" ref="data-holders:untitled-2">
-      <caption webpage="untitled-2" alt=""/>
+    <file name="artefacts.png" crc="59188221" seo="true" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="strategies_poster_.png" crc="347693336" ref="data-holders"/>
+    <file name="blank.gif" crc="4208392903" ref="data-holders"/>
+    <file name="strategies.png" crc="4001821175" seo="true" ref="data-holders">
+      <caption webpage="data-holders" alt=""/>
+      <caption webpage="data-holders" alt=""/>
+    </file>
     <file name="felho_strategie.svg" crc="4198171304" seo="true" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
     <file name="felho_strategie_poster_.png" crc="263094837" ref="data-holders"/>
-    <file name="data_holders_big-crop-u102.png" crc="13319648" seo="true" ref="data-holders">
+    <file name="attitude.png" crc="4117102234" seo="true" ref="data-holders">
+      <caption webpage="data-holders" alt=""/>
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="attitude.svg" crc="26887430" seo="true" ref="data-holders:untitled-2">
-      <caption webpage="untitled-2" alt=""/>
+    <file name="technological_kulcs.png" crc="475340667" seo="true" ref="data-holders">
+      <caption webpage="data-holders" alt=""/>
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="attitude_poster_.png" crc="166877444" ref="data-holders"/>
-    <file name="enviroment.svg" crc="364428219" seo="true" ref="data-holders:untitled-2">
-      <caption webpage="untitled-2" alt=""/>
+    <file name="asset 67.png" crc="4108856382" seo="true" ref="data-holders">
+      <caption webpage="data-holders" alt=""/>
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="enviroment_poster_.png" crc="45012123" ref="data-holders"/>
-    <file name="enablers_emberke.svg" crc="193444772" seo="true" ref="data-holders">
+    <file name="enviroment.png" crc="525901541" seo="true" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="enablers_emberke_poster_.png" crc="187319854" ref="data-holders"/>
-    <file name="technological_kulcs.svg" crc="425352662" seo="true" ref="data-holders">
+    <file name="enablers_emberke.png" crc="4152194092" seo="true" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="technological_kulcs_poster_.png" crc="387792810" ref="data-holders"/>
-    <file name="socio_economic.svg" crc="3899303178" seo="true" ref="data-holders">
+    <file name="legal_merleg.png" crc="127680353" seo="true" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="socio_economic_poster_.png" crc="457057316" ref="data-holders"/>
-    <file name="legal_merleg.svg" crc="3866334637" seo="true" ref="data-holders">
-      <caption webpage="data-holders" alt=""/>
-    </file>
-    <file name="legal_merleg_poster_.png" crc="3768663288" ref="data-holders"/>
     <file name="holder_nyil.png" crc="129948880" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
     <file name="artefacts_nyil.png" crc="3828477913" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
-    <file name="artefacts_nyil-u8467-fr.png" crc="4217314908" ref="data-holders"/>
+    <file name="artefacts_nyil-u8467-fr.png" crc="4034791187" ref="data-holders"/>
     <file name="strategies_nyil.png" crc="4067395822" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
     </file>
@@ -121,65 +110,73 @@
       <caption webpage="data-holders" alt=""/>
     </file>
     <file name="attitude_nyil-u8503-fr.png" crc="472998441" ref="data-holders"/>
-    <file name="eudeco-footer22.jpg" crc="4191207662" seo="true" ref="data-holders:untitled-2:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter">
-      <caption webpage="socio-economic" alt=""/>
-      <caption webpage="legal" alt=""/>
-      <caption webpage="data-use-cases" alt=""/>
+    <file name="find_actors_nyil.png" crc="525882672" ref="data-holders">
       <caption webpage="data-holders" alt=""/>
-      <caption webpage="solution-providers" alt=""/>
-      <caption webpage="data-distributors" alt=""/>
-      <caption webpage="index" alt=""/>
+    </file>
+    <file name="find_actors_nyil-u9858-fr.png" crc="4134857693" ref="data-holders"/>
+    <file name="eudeco-footer22.jpg" crc="4191207662" seo="true" ref="data-holders:index:enviromental-factors:legal:socio-economic:technological:data-economy-actors:data-users:data-distributors:solution-providers:data-use-cases:case-1:jatszoter:home-big">
       <caption webpage="jatszoter" alt=""/>
-      <caption webpage="data-users" alt=""/>
-      <caption webpage="technological" alt=""/>
-      <caption webpage="case-1" alt=""/>
-      <caption webpage="untitled-2" alt=""/>
+      <caption webpage="data-holders" alt=""/>
+      <caption webpage="legal" alt=""/>
+      <caption webpage="socio-economic" alt=""/>
       <caption webpage="data-economy-actors" alt=""/>
+      <caption webpage="data-users" alt=""/>
+      <caption webpage="data-use-cases" alt=""/>
+      <caption webpage="home-big" alt=""/>
+      <caption webpage="solution-providers" alt=""/>
+      <caption webpage="technological" alt=""/>
       <caption webpage="enviromental-factors" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="case-1" alt=""/>
+      <caption webpage="data-distributors" alt=""/>
     </file>
-    <file name="asset 12.svg" crc="3873822891" ref="untitled-2"/>
-    <file name="asset 12_poster_u3288.png" crc="330255641" ref="untitled-2"/>
-    <file name="legal.svg" crc="3785360405" ref="index"/>
-    <file name="legal_poster_u7800.png" crc="3800433707" ref="index"/>
-    <file name="legal2.svg" crc="4030802020" ref="index"/>
-    <file name="legal2_poster_u7792.png" crc="3943482429" ref="index"/>
-    <file name="enablers.svg" crc="3789173488" ref="index"/>
-    <file name="enablers_poster_u7824.png" crc="440119847" ref="index"/>
-    <file name="enablers2.svg" crc="7769066" ref="index"/>
-    <file name="enablers2_poster_u7832.png" crc="81350947" ref="index"/>
-    <file name="technological.svg" crc="444582551" ref="index"/>
-    <file name="technological_poster_u7768.png" crc="291750038" ref="index"/>
-    <file name="technological2.svg" crc="4117006223" ref="index"/>
-    <file name="technological2_poster_u7760.png" crc="4236100798" ref="index"/>
-    <file name="socio.svg" crc="468423860" ref="index"/>
-    <file name="socio_poster_u7784.png" crc="4230107730" ref="index"/>
-    <file name="socio2.svg" crc="3965615980" ref="index"/>
-    <file name="socio2_poster_u7776.png" crc="4063056214" ref="index"/>
-    <file name="data_holders_big-min.png" crc="47467231" seo="true" ref="index">
+    <file name="legal.svg" crc="3785360405" ref="index:home-big"/>
+    <file name="legal_poster_u7800.png" crc="3800433707" ref="index:home-big"/>
+    <file name="legal2.svg" crc="4030802020" ref="index:home-big"/>
+    <file name="legal2_poster_u7792.png" crc="3943482429" ref="index:home-big"/>
+    <file name="enablers.svg" crc="3789173488" ref="index:home-big"/>
+    <file name="enablers_poster_u7824.png" crc="440119847" ref="index:home-big"/>
+    <file name="enablers2.svg" crc="7769066" ref="index:home-big"/>
+    <file name="enablers2_poster_u7832.png" crc="81350947" ref="index:home-big"/>
+    <file name="technological.svg" crc="444582551" ref="index:home-big"/>
+    <file name="technological_poster_u7768.png" crc="291750038" ref="index:home-big"/>
+    <file name="technological2.svg" crc="4117006223" ref="index:home-big"/>
+    <file name="technological2_poster_u7760.png" crc="4236100798" ref="index:home-big"/>
+    <file name="socio.svg" crc="468423860" ref="index:home-big"/>
+    <file name="socio_poster_u7784.png" crc="4230107730" ref="index:home-big"/>
+    <file name="socio2.svg" crc="3965615980" ref="index:home-big"/>
+    <file name="socio2_poster_u7776.png" crc="4063056214" ref="index:home-big"/>
+    <file name="data_holders_big-min.png" crc="47467231" seo="true" ref="index:home-big">
+      <caption webpage="index" alt=""/>
+      <caption webpage="home-big" alt=""/>
+    </file>
+    <file name="data_distributors.png" crc="369937439" seo="true" ref="index:home-big">
+      <caption webpage="index" alt=""/>
+      <caption webpage="home-big" alt=""/>
+    </file>
+    <file name="solution_provider.png" crc="523062391" seo="true" ref="index:home-big">
+      <caption webpage="index" alt=""/>
+      <caption webpage="home-big" alt=""/>
+    </file>
+    <file name="data_users_big-min.png" crc="318789035" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="data_distributors.png" crc="369937439" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="solution_provider.png" crc="523062391" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="data_users_big-min-crop-u6354.png" crc="214567221" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
+    <file name="data_users_big-min-crop-u8926.png" crc="214567221" seo="true" ref="home-big">
+      <caption webpage="home-big" alt=""/>
     </file>
   </folder>
-  <file name="data-holders.html" crc="3776308579" seo="true" mt="1511038444723" redirect="true"/>
-  <file name="untitled-2.html" crc="473899370" seo="true" mt="1510865970327" redirect="true"/>
-  <file name="index.html" crc="474540800" seo="true" mt="1511038427518" redirect="true"/>
-  <file name="enviromental-factors.html" crc="26683600" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="legal.html" crc="3929073369" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="socio-economic.html" crc="62762661" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="technological.html" crc="4182834142" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="data-economy-actors.html" crc="278008901" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="data-users.html" crc="3938371718" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="data-distributors.html" crc="271225006" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="solution-providers.html" crc="4065531499" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="data-use-cases.html" crc="28120868" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="case-1.html" crc="188030977" seo="true" mt="1510865968761" redirect="true"/>
-  <file name="jatszoter.html" crc="82682293" seo="true" mt="1510870893335" redirect="true"/>
+  <file name="data-holders.html" crc="3769841166" seo="true" mt="1513936434050" redirect="true"/>
+  <file name="index.html" crc="122756858" seo="true" mt="1513807314995" redirect="true"/>
+  <file name="enviromental-factors.html" crc="484235919" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="legal.html" crc="4226575017" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="socio-economic.html" crc="299207301" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="technological.html" crc="17522178" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="data-economy-actors.html" crc="3840779634" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="data-users.html" crc="262038428" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="data-distributors.html" crc="3778976150" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="solution-providers.html" crc="4142815608" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="data-use-cases.html" crc="42399832" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="case-1.html" crc="4104061990" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="jatszoter.html" crc="9059647" seo="true" mt="1513792872852" redirect="true"/>
+  <file name="home-big.html" crc="3852979983" seo="true" mt="1513792872852" redirect="true"/>
 </manifest>
